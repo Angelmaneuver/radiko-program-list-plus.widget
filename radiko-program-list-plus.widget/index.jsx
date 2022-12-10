@@ -116,6 +116,11 @@ export const render           = (props, dispatch) => {
 	const current = props.volume ? props.volume : 0;
 
 	return (
+		<React.Fragment>
+			<link
+			rel  = 'stylesheet'
+			href = '/radiko-program-list-plus.widget/lib/vlc-controller/icono.min.css'
+		/>
 		<div
 			style = {{ width: '30em' }}
 		>
@@ -144,6 +149,7 @@ export const render           = (props, dispatch) => {
 				{ props.program }
 			</Stations>
 		</div>
+		</React.Fragment>
 	);
 }
 
