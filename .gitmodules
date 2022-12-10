@@ -1,0 +1,6 @@
+[submodule "radiko-program-list.widget"]
+	path = radiko-program-list.widget
+	url = https://github.com/Angelmaneuver/radiko-program-list.widget.git
+[submodule "vlc-controller.widget"]
+	path = vlc-controller.widget
+	url = https://github.com/Angelmaneuver/vlc-controller.widget.git

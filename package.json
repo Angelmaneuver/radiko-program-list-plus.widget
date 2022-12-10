@@ -1,0 +1,10 @@
+{
+	"name": "library-for-radiko-program-list-plus",
+	"version": "1.0.0",
+	"author": "Angelmaneuver",
+	"license": "MIT",
+	"description": "Library for radiko program list+.",
+	"scripts": {
+		"package": "zip -r radiko-program-list-plus.widget.zip ./radiko-program-list-plus.widget"
+	}
+}
