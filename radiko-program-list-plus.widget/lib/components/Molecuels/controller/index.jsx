@@ -95,6 +95,10 @@ const Controller = ({
                     />
                     <Vlc.Atoms.Display
                         className = { `${screen()}` }
+						style     = {{
+							width:     '1.5em',
+							textAlign: 'right',
+						}}
                     >
                         { volume }
                     </Vlc.Atoms.Display>
